@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule, NbButtonModule, NbCardModule, NbSidebarModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { D3TestComponent } from './d3-test/d3-test.component';
+import { AngularDropdownModule } from 'angular-dropdown';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { D3TestComponent } from './d3-test/d3-test.component';
     NbEvaIconsModule,
     NbButtonModule,
     NbCardModule,
-    NbSidebarModule.forRoot()
+    NbSidebarModule.forRoot(),
+    AngularDropdownModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
